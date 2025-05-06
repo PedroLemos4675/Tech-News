@@ -1,0 +1,54 @@
+main {
+    width: 100%;
+    margin-top: 40px;
+}
+
+main div {
+    height: 200px;
+    width: auto;
+}
+
+#featured {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+#featured img {
+    border-radius: 5px;
+}
+
+#bot img {
+    height: 416px;
+    width: auto;
+}
+
+#imgs {
+    height: 416px;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+}
+
+#imgs img {
+    height: 200px;
+    width: auto;
+}
+
+.card {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        bottom: 50%;
+        background: linear-gradient(
+            180deg,
+            transparent 0%,
+            var(--gradient)
+        );
+    }
+}
