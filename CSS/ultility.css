@@ -13,3 +13,11 @@
 .text-sml {
     font: var(--text-sml);
 }
+
+.grid {
+    display: grid;
+}
+
+.grid-col {
+    grid-auto-flow: column;
+}

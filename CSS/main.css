@@ -19,6 +19,8 @@ section {
     display: flex;
     flex-direction: row;
     gap: 16px;
+    width: 100%;
+    height: 416px;
 }
 
 #featured img {
@@ -26,14 +28,12 @@ section {
 } 
 
 #bot img {
-    height: 416px;
-    width: 608px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
 #imgs {
-    height: 416px;
-    width: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     flex-flow: row wrap;
@@ -84,3 +84,19 @@ figcaption {
 h2 {
     margin-top: 8px;
 }
+
+#weekly {
+    width: 100%;
+    border-top: solid 1px var(--stroke-color);
+    margin-top: 80px;
+    padding-top: 12px;
+}
+
+section header {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
