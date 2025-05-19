@@ -100,3 +100,43 @@ section header {
     padding-bottom: 24px;
 }
 
+section header a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+#weekly header span {
+    width: 16px;
+    height: 16px;
+}
+
+.figure {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.figure img {
+    width: 292px;
+    height: 160px;
+}
+
+.figure p {
+    font: var(--h3);
+    margin-top: 8px;
+    font-weight: 800;
+}
+
+.figure figure {
+    position: relative;
+}
+
+.figure span {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
