@@ -90,6 +90,8 @@ h2 {
     border-top: solid 1px var(--stroke-color);
     margin-top: 80px;
     padding-top: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
 section header {
