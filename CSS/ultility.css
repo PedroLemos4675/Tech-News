@@ -21,3 +21,11 @@
 .grid-col {
     grid-auto-flow: column;
 }
+
+.gap-32 {
+    gap: 32px;
+}
+
+.gap-16 {
+    gap: 16px;
+}

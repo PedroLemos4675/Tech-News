@@ -142,3 +142,32 @@ section header a {
     left: 8px;
     top: 8px;
 }
+
+#ai {
+    margin-top: 90px;
+    border-top: solid 1px var(--stroke-color);
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+}
+
+#ai article {
+    display: flex;
+    flex-direction: row;
+    height: 176px;
+    padding-bottom: 32px;
+}
+
+#ai article img {
+    height: 100%;
+}
+
+#more {
+    display: flex;
+    flex-direction: column;
+}
+
+#more article {
+    display: flex;
+    flex-direction: row;
+}
