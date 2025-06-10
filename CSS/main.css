@@ -6,9 +6,6 @@
 
 section {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .main-img {
@@ -21,6 +18,7 @@ section {
     gap: 16px;
     width: 100%;
     height: 416px;
+    grid-area: featured;
 }
 
 #featured img {
@@ -86,6 +84,7 @@ h2 {
 }
 
 #weekly {
+    grid-area: weekly;
     width: 100%;
     border-top: solid 1px var(--stroke-color);
     margin-top: 80px;
@@ -139,35 +138,78 @@ section header a {
 
 .figure span {
     position: absolute;
-    left: 8px;
+    left: 8px;  
     top: 8px;
 }
 
+#final {
+    width: 100%;
+    display: flex;
+    margin-top: 8rem;
+    gap: 2.6rem;
+}
+
 #ai {
-    margin-top: 90px;
-    border-top: solid 1px var(--stroke-color);
+    border-top: 1px solid var(--stroke-color);
+    padding-top: 1.2rem;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    padding-top: 12px;
+    gap: 0.4rem;
+
+
+    article {
+        display: flex;
+        align-items: center;
+        height: 14rem;
+        gap:3.2rem
+    }
+
+    .imgs img {
+        width: 11rem;
+       
+    }
+
+    .article-txt {
+        margin-top: 8px;
+    }
 }
 
-#ai article {
-    display: flex;
-    flex-direction: row;
-    height: 176px;
-    padding-bottom: 32px;
-}
+aside {
+    width: 40%;
 
-#ai article img {
-    height: 100%;
-}
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid var(--stroke-color);
+        padding-top: 1.2rem;
+    }
 
-#more {
-    display: flex;
-    flex-direction: column;
-}
+    #ads {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
 
-#more article {
-    display: flex;
-    flex-direction: row;
+    span {
+        margin-bottom: 8px;
+    }
+
+    #aside-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    article {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2.4rem;
+        height: 5.35rem;
+    }
+
+    .aside-img {
+        width: 6rem;
+    }
 }
